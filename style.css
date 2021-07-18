@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "fonte";
+    src: url('fonte/Lightly-Sailler-dafont.woff') format('woff');
+  }
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(imagens/fundo.png);
+}
+
+#imagen{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.menu {
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+
+.menu a{
+    color: rgb(189, 135, 70);
+    font-size: 30px;
+    font-family:"fonte" ;
+    text-decoration: none;
+    margin: 0.3em;
+}
+
+.menu a:hover{
+    color: brown;
+}
+
+.conteudo{
+    background-color: #FFFAF0;
+}
